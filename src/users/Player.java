@@ -42,9 +42,37 @@ public class Player extends User {
     public Weapon getWeapons(){
         return this.weapons[2];
     }
-
-    public void setId(String id){
-        this.id= id;
+    //create setters
+    public void setPendingChallenge(Challenge pendingChallenge){
+        this.pendingChallenge = pendingChallenge;
     }
+    public void setPendingNotification(boolean pendingNotification){
+        this.pendingNotification = pendingNotification;
+    }
+    public void setGold(int gold){
+        this.gold = gold;
+    }
+    public void setBanned(boolean banned){
+        this.banned = banned;
+    }
+    public void setLastLostFight(long lastLostFight){
+        this.lastLostFight = lastLostFight;
+    }
+    public void setCurrentCharacter(CharacterSelection currentCharacter){
+        this.currentCharacter = currentCharacter;
+    }
+    public void setArmor(Armor armor){
+        this.armor = armor;
+    }
+    public void setWeapons(Weapon[2] weapons){
+        this.weapons = weapons;
+    }
+    public void addGold(int gold){
+        this.gold += gold;
+    }
+    public void subGold(int gold){
+        this.gold -= gold;
+    }
+    
 
 }

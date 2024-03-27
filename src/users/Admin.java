@@ -7,6 +7,7 @@ public class Admin extends User {
     }
     public manageChallenges(Challenge challenges){
 
+        
     }
     private void banPlayer(Player player){  //banear a un jugador
         player.setBanned(true);

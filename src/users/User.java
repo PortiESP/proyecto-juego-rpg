@@ -6,4 +6,5 @@ public abstract class User {
         this.nick = nick;
         this.password = password;
     }
+    
 }

@@ -42,6 +42,7 @@ public class Player extends User {
     public Weapon getWeapons(){
         return this.weapons[2];
     }
+    
     //create setters
     public void setPendingChallenge(Challenge pendingChallenge){
         this.pendingChallenge = pendingChallenge;
